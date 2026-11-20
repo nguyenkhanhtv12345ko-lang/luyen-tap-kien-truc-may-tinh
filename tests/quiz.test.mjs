@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import assert from "node:assert/strict";
 import { test } from "node:test";
+import { studyNotes, terminology } from "../study-notes.mjs";
 import {
   createRun, displayOptions, modes, outcome, restore, selectIds, stats, submit, wrongQuestions,
 } from "../quiz.mjs";
@@ -9,6 +10,24 @@ const bank = JSON.parse(readFileSync(new URL("../questions.json", import.meta.ur
 const map = new Map(bank.map(q => [q.id, q]));
 const random = () => 0;
 const range = (first, last) => Array.from({ length: last - first + 1 }, (_, i) => first + i);
+
+test("Mỗi câu có giải thích chi tiết và thuật ngữ Việt–Anh hợp lệ", () => {
+  assert.deepEqual(Object.keys(studyNotes).map(Number), bank.map(q => q.sourceNumber));
+  const linkedTerms = new Set();
+  for (const [explanation, terms] of Object.values(studyNotes)) {
+    assert(explanation.trim());
+    assert(terms.length > 0);
+    assert.equal(new Set(terms).size, terms.length);
+    for (const term of terms) {
+      assert.equal(terminology[term]?.length, 3, term);
+      assert(terminology[term].every(text => text.trim()));
+      linkedTerms.add(term);
+    }
+  }
+  assert.deepEqual([...linkedTerms].sort(), Object.keys(terminology).sort());
+  assert(studyNotes[1][1].includes("organization") && studyNotes[1][1].includes("microarchitecture"));
+  assert(studyNotes[89][1].includes("isaBus") && studyNotes[89][1].includes("isa"));
+});
 
 test("Nhập đủ 107 câu, 428 phương án và 107 đáp án theo thứ tự Word", () => {
   assert.deepEqual(bank.map(q => q.sourceNumber), range(1, 107));

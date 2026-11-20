@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./app.mjs"></script>
+  <link rel="stylesheet" href="./style.css?v=2">
+  <script type="module" src="./app.mjs?v=2"></script>
 </head>
 <body>
   <a class="skip" href="#question">Đến câu hỏi</a>
@@ -38,6 +38,17 @@
         <p id="order-note" class="order-note" hidden>Giữ thứ tự phương án để giữ đúng các tham chiếu.</p>
         <div id="options" class="options" role="group" aria-label="Phương án trả lời"></div>
         <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+        <section id="study-details" class="study-details" aria-labelledby="study-heading" hidden>
+          <div id="study-explanation">
+            <h2 id="study-heading">Giải thích chi tiết</h2>
+            <p id="study-text"></p>
+          </div>
+          <div id="study-glossary">
+            <h3>Thuật ngữ Việt–Anh</h3>
+            <dl id="study-terms" class="study-terms"></dl>
+          </div>
+          <p id="study-source" class="study-source"></p>
+        </section>
         <div class="controls" aria-label="Điều khiển câu hỏi">
           <button id="previous" class="button secondary" type="button">Câu trước</button>
           <button id="next" class="button primary" type="button">Câu sau</button>

@@ -1,6 +1,7 @@
 import {
   createRun, displayOptions, outcome, questionCount, restore, selectIds, sets, stats, submit, wrongQuestions,
 } from "./quiz.mjs";
+import { studyNotes, terminology } from "./study-notes.mjs";
 
 const byId = id => document.getElementById(id);
 const storageKey = "kien-truc-may-tinh-107/v1";
@@ -42,6 +43,30 @@ function textNode(tag, text, className) {
   if (className) element.className = className;
   element.textContent = text;
   return element;
+}
+
+function renderStudyDetails(question, answer) {
+  const study = byId("study-details");
+  const [explanation, terms] = studyNotes[question.sourceNumber] ?? ["", []];
+  study.hidden = !answer || !(explanation || question.explanation);
+  if (study.hidden) return;
+
+  byId("study-explanation").hidden = !explanation;
+  byId("study-text").textContent = explanation;
+  byId("study-glossary").hidden = terms.length === 0;
+  byId("study-terms").replaceChildren(...terms.map(term => {
+    const [vietnamese, english, definition] = terminology[term];
+    const item = document.createElement("div");
+    const name = textNode("dt", vietnamese);
+    if (english !== vietnamese) {
+      name.append(textNode("span", ` (${english})`, "term-english"));
+    }
+    item.append(name, textNode("dd", definition));
+    return item;
+  }));
+  const source = byId("study-source");
+  source.hidden = !question.explanation;
+  source.textContent = question.explanation || "";
 }
 
 function renderQuestion() {
@@ -109,10 +134,8 @@ function renderQuestion() {
     feedback.append(textNode("span", correct.length
       ? "Đáp án đúng là " + correct.map(option => option.letter + ". " + option.text).join(" / ")
       : "Lựa chọn đã được lưu. Câu này được bỏ qua khi tính điểm."));
-    if (question.explanation) {
-      feedback.append(textNode("p", question.explanation, "explanation"));
-    }
   }
+  renderStudyDetails(question, answer);
 }
 
 function updateSelection(focus) {
