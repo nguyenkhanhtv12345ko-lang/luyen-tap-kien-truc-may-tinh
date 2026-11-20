@@ -1,0 +1,2891 @@
+[
+  {
+    "id": 1,
+    "text": "Theo định nghĩa mở rộng trong bài, kiến trúc máy tính gồm mấy mặt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ba mặt"
+      },
+      {
+        "id": "B",
+        "text": "Bốn mặt"
+      },
+      {
+        "id": "C",
+        "text": "Hai mặt"
+      },
+      {
+        "id": "D",
+        "text": "Năm mặt"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương I, slide 5. Ba mặt là kiến trúc tập lệnh, tổ chức máy tính và phần cứng.  ·  Tự soạn",
+    "sourceNumber": 1
+  },
+  {
+    "id": 2,
+    "text": "Nhóm nội dung nào thuộc kiến trúc tập lệnh (ISA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tập lệnh, thanh ghi, chế độ địa chỉ và khuôn dạng dữ liệu"
+      },
+      {
+        "id": "B",
+        "text": "Quy trình đóng gói và kiểm thử vi mạch"
+      },
+      {
+        "id": "C",
+        "text": "Cơ cấu cơ khí của thiết bị lưu trữ"
+      },
+      {
+        "id": "D",
+        "text": "Bố trí chip nhớ và tuyến bus trên bo mạch"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương I, slide 4-6. ISA mô tả máy tính từ góc nhìn của người lập trình.  ·  [H]",
+    "sourceNumber": 2
+  },
+  {
+    "id": 3,
+    "text": "Khi nghiên cứu công nghệ đóng gói và thiết kế logic chi tiết, ta đang xét mặt nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tổ chức máy tính (Computer Organization)"
+      },
+      {
+        "id": "B",
+        "text": "Phân loại máy tính (Computer Classification)"
+      },
+      {
+        "id": "C",
+        "text": "Phần cứng (Hardware)"
+      },
+      {
+        "id": "D",
+        "text": "Kiến trúc tập lệnh (ISA)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương I, slide 7. Slide xếp thiết kế logic chi tiết và đóng gói vào Hardware.  ·  Tự soạn",
+    "sourceNumber": 3
+  },
+  {
+    "id": 4,
+    "text": "Tập hợp các lệnh lưu trong bộ nhớ để thực hiện một công việc cụ thể được gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chương trình (Program)"
+      },
+      {
+        "id": "B",
+        "text": "Thanh ghi (Register)"
+      },
+      {
+        "id": "C",
+        "text": "Tuyến địa chỉ (Address Bus)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ điều khiển (Control Unit)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương I, slide 8. Máy tính thực hiện công việc theo dãy lệnh đã lưu.  ·  Tự soạn",
+    "sourceNumber": 4
+  },
+  {
+    "id": 5,
+    "text": "Ý tưởng nào được minh họa bằng máy IAS của von Neumann?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đưa toàn bộ chương trình vào bộ số học và logic"
+      },
+      {
+        "id": "B",
+        "text": "Mỗi phép toán phải được ghép dây lại trước khi chạy"
+      },
+      {
+        "id": "C",
+        "text": "Lưu chương trình trong bộ nhớ để bộ điều khiển lấy lệnh"
+      },
+      {
+        "id": "D",
+        "text": "Cất chương trình trên thiết bị xuất thay cho bộ nhớ"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương I, slide 12. IAS minh họa nguyên lý chương trình lưu trữ.  ·  [B]",
+    "sourceNumber": 5
+  },
+  {
+    "id": 6,
+    "text": "Máy tính cơ học của Pascal được xếp vào thế hệ nào trong cách chia của bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thế hệ II"
+      },
+      {
+        "id": "B",
+        "text": "Thế hệ III"
+      },
+      {
+        "id": "C",
+        "text": "Thế hệ 0"
+      },
+      {
+        "id": "D",
+        "text": "Thế hệ I"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương I, slide 9-10. Thế hệ 0 có thiết bị tính toán cơ học.  ·  [B]",
+    "sourceNumber": 6
+  },
+  {
+    "id": 7,
+    "text": "Theo các thế hệ trong bài, ENIAC đại diện cho giai đoạn sử dụng công nghệ nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transistor lưỡng cực"
+      },
+      {
+        "id": "B",
+        "text": "Mạch tích hợp IC"
+      },
+      {
+        "id": "C",
+        "text": "Mạch tích hợp mật độ rất cao VLSI"
+      },
+      {
+        "id": "D",
+        "text": "Bóng đèn điện tử"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 9-11. ENIAC là ví dụ của thế hệ I trong bài.  ·  [B]",
+    "sourceNumber": 7
+  },
+  {
+    "id": 8,
+    "text": "Cặp công nghệ nào tương ứng với thế hệ II rồi đến thế hệ III?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mạch tích hợp IC rồi VLSI"
+      },
+      {
+        "id": "B",
+        "text": "Transistor rồi mạch tích hợp IC"
+      },
+      {
+        "id": "C",
+        "text": "Cơ học rồi bóng đèn điện tử"
+      },
+      {
+        "id": "D",
+        "text": "Bóng đèn rồi transistor"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 9, 13-14. Transistor đánh dấu thế hệ II, IC đánh dấu thế hệ III.  ·  [B]",
+    "sourceNumber": 8
+  },
+  {
+    "id": 9,
+    "text": "Thành tựu nào được nêu cho thế hệ IV của máy tính?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bóng đèn điện tử và chương trình đấu dây"
+      },
+      {
+        "id": "B",
+        "text": "Bộ nhớ bán dẫn và bộ vi xử lý"
+      },
+      {
+        "id": "C",
+        "text": "Băng từ và động cơ quay"
+      },
+      {
+        "id": "D",
+        "text": "Bánh răng cơ học và bảng đục lỗ"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 15. Slide 15 gắn thế hệ IV với VLSI, bộ nhớ bán dẫn và vi xử lý.  ·  [B]",
+    "sourceNumber": 9
+  },
+  {
+    "id": 10,
+    "text": "Thiết bị điều khiển chuyên dụng được đặt bên trong một thiết bị khác thuộc nhóm nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Siêu máy tính (Supercomputer)"
+      },
+      {
+        "id": "B",
+        "text": "Máy chủ (Server Computer)"
+      },
+      {
+        "id": "C",
+        "text": "Máy để bàn (Desktop Computer)"
+      },
+      {
+        "id": "D",
+        "text": "Máy tính nhúng (Embedded Computer)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 17-19. Slide 19 nêu đặc trưng đặt ẩn và thiết kế chuyên dụng.  ·  Tự soạn",
+    "sourceNumber": 10
+  },
+  {
+    "id": 11,
+    "text": "Trong cách phân loại truyền thống ở slide 17, tên tiếng Anh của máy tính lớn là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Minicomputer"
+      },
+      {
+        "id": "B",
+        "text": "Mainframe Computer"
+      },
+      {
+        "id": "C",
+        "text": "Microcomputer"
+      },
+      {
+        "id": "D",
+        "text": "Supercomputer"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 17. Slide phân biệt máy tính lớn với máy vi tính, máy nhỏ và siêu máy tính.  ·  Tự soạn",
+    "sourceNumber": 11
+  },
+  {
+    "id": 12,
+    "text": "Nhóm nào ghi đủ bốn thành phần cơ bản của hệ thống máy tính?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPU, bộ nhớ, thiết bị vào/ra và bus hệ thống"
+      },
+      {
+        "id": "B",
+        "text": "CPU, ALU, thanh ghi và bộ điều khiển"
+      },
+      {
+        "id": "C",
+        "text": "CPU, bộ nhớ, bàn phím và ổ đĩa"
+      },
+      {
+        "id": "D",
+        "text": "Bus địa chỉ, bus dữ liệu, bus điều khiển và cache"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương I, slide 20, 33. Sơ đồ hệ thống nối CPU, mô-đun nhớ và mô-đun vào/ra qua bus.  ·  [H]",
+    "sourceNumber": 12
+  },
+  {
+    "id": 13,
+    "text": "BIU (Bus Interface Unit) được nêu với vai trò nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ghép nối các đơn vị với bus để trao đổi thông tin"
+      },
+      {
+        "id": "B",
+        "text": "Thực hiện các phép tính số học và logic"
+      },
+      {
+        "id": "C",
+        "text": "Đặt địa chỉ cho mỗi ô nhớ vật lý"
+      },
+      {
+        "id": "D",
+        "text": "Lưu dài hạn dữ liệu người dùng"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương I, slide 23-24. Slide 24 nêu BIU là đơn vị ghép nối bus.  ·  Tự soạn",
+    "sourceNumber": 13
+  },
+  {
+    "id": 14,
+    "text": "Hai thao tác cơ bản đối với bộ nhớ được gọi thế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nạp (Fetch) và giải mã (Decode)"
+      },
+      {
+        "id": "B",
+        "text": "Định địa chỉ (Addressing) và ngắt (Interrupt)"
+      },
+      {
+        "id": "C",
+        "text": "Đọc (Read) và ghi (Write)"
+      },
+      {
+        "id": "D",
+        "text": "Nhập (Input) và hiển thị (Display)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương I, slide 25. Kiến thức phần bộ nhớ liệt kê Read và Write.  ·  Tự soạn",
+    "sourceNumber": 14
+  },
+  {
+    "id": 15,
+    "text": "Tầng nào làm vùng đệm nhanh giữa CPU và bộ nhớ chính?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thiết bị vào/ra (I/O Device)"
+      },
+      {
+        "id": "B",
+        "text": "Bộ nhớ quang (Optical Memory)"
+      },
+      {
+        "id": "C",
+        "text": "Ổ cứng từ (HDD)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ nhớ đệm (Cache)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 28. Cache nhỏ và nhanh hơn bộ nhớ chính trong mô tả của bài.  ·  [A]",
+    "sourceNumber": 15
+  },
+  {
+    "id": 16,
+    "text": "Cặp nào chỉ gồm các thiết bị nhập theo ví dụ trong bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Máy quét và máy in"
+      },
+      {
+        "id": "B",
+        "text": "Màn hình và máy in"
+      },
+      {
+        "id": "C",
+        "text": "Đĩa cứng và đĩa quang"
+      },
+      {
+        "id": "D",
+        "text": "Bàn phím và máy quét"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 29-30. Slide 30 xếp keyboard và scanner vào thiết bị vào.  ·  [P]",
+    "sourceNumber": 16
+  },
+  {
+    "id": 17,
+    "text": "Khi CPU cần chỉ ra ô nhớ đích, loại bus nào mang thông tin vị trí đó?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus điều khiển (Control Bus)"
+      },
+      {
+        "id": "B",
+        "text": "Bus dữ liệu (Data Bus)"
+      },
+      {
+        "id": "C",
+        "text": "Bus địa chỉ (Address Bus)"
+      },
+      {
+        "id": "D",
+        "text": "Bus ghép nối card PCI"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương I, slide 32-34. Bus địa chỉ mang địa chỉ vùng nhớ hoặc cổng vào/ra.  ·  [H]",
+    "sourceNumber": 17
+  },
+  {
+    "id": 18,
+    "text": "Tín hiệu yêu cầu mô-đun nhớ thực hiện đọc hoặc ghi đi trên tuyến nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tuyến bộ nhớ chính–cache"
+      },
+      {
+        "id": "B",
+        "text": "Bus dữ liệu (Data Bus)"
+      },
+      {
+        "id": "C",
+        "text": "Bus địa chỉ (Address Bus)"
+      },
+      {
+        "id": "D",
+        "text": "Bus điều khiển (Control Bus)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 32, 35. Slide 35 xếp tín hiệu Read/Write vào bus điều khiển.  ·  [H]",
+    "sourceNumber": 18
+  },
+  {
+    "id": 19,
+    "text": "Nếu bus dữ liệu có 16 đường bit hoạt động song song, mỗi lần có thể truyền đồng thời bao nhiêu bit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "65.536 bit"
+      },
+      {
+        "id": "B",
+        "text": "16 bit"
+      },
+      {
+        "id": "C",
+        "text": "8 bit"
+      },
+      {
+        "id": "D",
+        "text": "32 bit"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 32-33. Độ rộng bus dữ liệu là số đường truyền bit đồng thời.  ·  [G]",
+    "sourceNumber": 19
+  },
+  {
+    "id": 20,
+    "text": "Bộ nhớ đánh địa chỉ từng byte với bus địa chỉ 12 bit có tối đa bao nhiêu byte phân biệt?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.095 byte"
+      },
+      {
+        "id": "B",
+        "text": "4.096 byte"
+      },
+      {
+        "id": "C",
+        "text": "2.048 byte"
+      },
+      {
+        "id": "D",
+        "text": "8.192 byte"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 34. Có 2¹² địa chỉ. Khoảng địa chỉ đi từ 0 đến 4.095.  ·  [A]",
+    "sourceNumber": 20
+  },
+  {
+    "id": 21,
+    "text": "Trong sơ đồ cấu trúc CPU, ba khối cơ bản nào nằm bên trong bộ xử lý?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ điều khiển, ALU và thanh ghi"
+      },
+      {
+        "id": "B",
+        "text": "Bus hệ thống, máy in và cache đĩa"
+      },
+      {
+        "id": "C",
+        "text": "Bộ nhớ chính, ổ đĩa và máy in"
+      },
+      {
+        "id": "D",
+        "text": "ALU, bộ nhớ chính và bộ điều khiển ổ đĩa"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương II, slide 4-6. Sơ đồ slide 6 thể hiện Control Block, ALU và Registers.  ·  [U]",
+    "sourceNumber": 21
+  },
+  {
+    "id": 22,
+    "text": "Khối nào chịu trách nhiệm nạp và nhận biết lệnh lấy từ bộ nhớ chính theo mô tả của bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ đếm chương trình (PC)"
+      },
+      {
+        "id": "B",
+        "text": "Bộ điều khiển (Control Unit)"
+      },
+      {
+        "id": "C",
+        "text": "Cache dữ liệu (DC)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ số học và logic (ALU)"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương II, slide 4-5. Slide 5 giao việc tìm nạp và định loại lệnh cho bộ điều khiển.  ·  [U]",
+    "sourceNumber": 22
+  },
+  {
+    "id": 23,
+    "text": "Trong CPU, khối nào thực hiện phép AND giữa hai toán hạng?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ nhớ lệnh (Instruction Cache)"
+      },
+      {
+        "id": "B",
+        "text": "Bộ đếm chương trình (PC)"
+      },
+      {
+        "id": "C",
+        "text": "Đơn vị giải mã (DU)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ số học và logic (ALU)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương II, slide 5. AND và OR là các ví dụ phép toán logic của ALU.  ·  [K]",
+    "sourceNumber": 23
+  },
+  {
+    "id": 24,
+    "text": "Trong mô hình của bài, khi cần biết địa chỉ lệnh sẽ thực hiện tiếp, CPU dựa vào thanh ghi nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ đệm dữ liệu (Data Cache)"
+      },
+      {
+        "id": "B",
+        "text": "Thanh ghi lưu kết quả phép cộng"
+      },
+      {
+        "id": "C",
+        "text": "Bộ đếm chương trình (Program Counter)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ nhớ vi chương trình (Control Memory)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 5. PC chỉ đến lệnh kế tiếp.  ·  [K]",
+    "sourceNumber": 24
+  },
+  {
+    "id": 25,
+    "text": "Kết quả tính toán tạm thời như số 5 ở ví dụ 2 + 3 có thể được ALU đưa vào đâu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vùng firmware khởi động"
+      },
+      {
+        "id": "B",
+        "text": "Chân tín hiệu của bus địa chỉ"
+      },
+      {
+        "id": "C",
+        "text": "Bộ đếm vòng quay ổ đĩa"
+      },
+      {
+        "id": "D",
+        "text": "Một thanh ghi trong CPU"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương II, slide 5, 34. Slide 34 minh họa kết quả 5 được chuyển đến thanh ghi.  ·  [U]",
+    "sourceNumber": 25
+  },
+  {
+    "id": 26,
+    "text": "Khi kiểm tra CPU có lắp vừa đế trên bo mạch hay không, cần đối chiếu thông số nào trước?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Loại socket"
+      },
+      {
+        "id": "B",
+        "text": "Tần số đồng hồ"
+      },
+      {
+        "id": "C",
+        "text": "Dung lượng cache"
+      },
+      {
+        "id": "D",
+        "text": "Số luồng logic"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương II, slide 8-9. Socket mô tả dạng và bố trí các tiếp điểm để gắn CPU.  ·  Tự soạn",
+    "sourceNumber": 26
+  },
+  {
+    "id": 27,
+    "text": "Ví dụ Core 2 Duo 2,6 GHz có thể nhanh hơn Pentium 4 3,4 GHz minh họa điều gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "So CPU khác kiến trúc cần xét thêm yếu tố ngoài xung nhịp"
+      },
+      {
+        "id": "B",
+        "text": "Giá trị GHz đo trực tiếp số lệnh hoàn thành mỗi giây"
+      },
+      {
+        "id": "C",
+        "text": "Tăng xung nhịp luôn làm mọi chương trình chậm hơn"
+      },
+      {
+        "id": "D",
+        "text": "Hai CPU khác kiến trúc luôn chạy bằng nhau"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương II, slide 10-11. Slide 10-11 phân biệt tần số xung với hiệu năng thực tế.  ·  Tự soạn",
+    "sourceNumber": 27
+  },
+  {
+    "id": 28,
+    "text": "FSB trong các cấu hình cổ điển ở bài chỉ đường truyền giữa cặp nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ nhớ flash và đầu đọc đĩa"
+      },
+      {
+        "id": "B",
+        "text": "Chuột và bàn phím"
+      },
+      {
+        "id": "C",
+        "text": "CPU và chipset"
+      },
+      {
+        "id": "D",
+        "text": "Ổ đĩa và cổng nguồn"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 12. Front-Side Bus là liên kết CPU–chipset trong ví dụ.  ·  Tự soạn",
+    "sourceNumber": 28
+  },
+  {
+    "id": 29,
+    "text": "Bus có xung 100 MHz và truyền bốn lần mỗi chu kỳ đạt tốc độ truyền lý thuyết bao nhiêu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 triệu lượt truyền mỗi giây"
+      },
+      {
+        "id": "B",
+        "text": "800 triệu lượt truyền mỗi giây"
+      },
+      {
+        "id": "C",
+        "text": "400 triệu lượt truyền mỗi giây"
+      },
+      {
+        "id": "D",
+        "text": "100 triệu lượt truyền mỗi giây"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 13. Nhân 100 triệu chu kỳ mỗi giây với 4 lượt truyền mỗi chu kỳ.  ·  Tự soạn",
+    "sourceNumber": 29
+  },
+  {
+    "id": 30,
+    "text": "Theo cách tính minh họa, xung tham chiếu 200 MHz và hệ số nhân 12 cho xung CPU bao nhiêu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,4 GHz"
+      },
+      {
+        "id": "B",
+        "text": "24 GHz"
+      },
+      {
+        "id": "C",
+        "text": "2,0 GHz"
+      },
+      {
+        "id": "D",
+        "text": "1,2 GHz"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương II, slide 14. 200 MHz × 12 = 2.400 MHz.  ·  Tự soạn",
+    "sourceNumber": 30
+  },
+  {
+    "id": 31,
+    "text": "L1 và L2 trong thông số CPU ở bài gọi tên hai cấp của loại bộ nhớ nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cache (bộ nhớ đệm)"
+      },
+      {
+        "id": "B",
+        "text": "ROM (bộ nhớ chỉ đọc)"
+      },
+      {
+        "id": "C",
+        "text": "HDD (ổ cứng từ)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ nhớ ảo (Virtual Memory)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương II, slide 15-16. L1 và L2 lần lượt là cache cấp 1 và cấp 2.  ·  [G]",
+    "sourceNumber": 31
+  },
+  {
+    "id": 32,
+    "text": "Theo ví dụ Hyper-Threading trong bài, mỗi lõi vật lý có thể hiện diện dưới dạng mấy bộ xử lý logic?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Một"
+      },
+      {
+        "id": "B",
+        "text": "Bốn"
+      },
+      {
+        "id": "C",
+        "text": "Tám"
+      },
+      {
+        "id": "D",
+        "text": "Hai"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương II, slide 20. Hai luồng logic dùng chung tài nguyên của một lõi vật lý.  ·  Tự soạn",
+    "sourceNumber": 32
+  },
+  {
+    "id": 33,
+    "text": "Hai phương án thiết kế bộ điều khiển được trình bày trong bài là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Điều khiển xung đơn và điều khiển xung kép"
+      },
+      {
+        "id": "B",
+        "text": "Điều khiển bằng mạch và điều khiển bằng vi chương trình"
+      },
+      {
+        "id": "C",
+        "text": "Điều khiển bằng SRAM và điều khiển bằng DRAM"
+      },
+      {
+        "id": "D",
+        "text": "Điều khiển tuần tự và điều khiển theo nội dung"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương II, slide 21. Tên tiếng Anh là Hardwired và Microprogrammed Control Unit.  ·  [A]",
+    "sourceNumber": 33
+  },
+  {
+    "id": 34,
+    "text": "Thiết kế nào dùng trực tiếp logic và trạng thái mạch để tạo tín hiệu điều khiển?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giải mã địa chỉ bộ nhớ (Address Decoding)"
+      },
+      {
+        "id": "B",
+        "text": "Điều khiển bằng mạch (Hardwired Control)"
+      },
+      {
+        "id": "C",
+        "text": "Ghép nối bus (Bus Interfacing)"
+      },
+      {
+        "id": "D",
+        "text": "Điều khiển bằng vi chương trình (Microprogrammed Control)"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương II, slide 22-23. CU dùng mạch tạo tín hiệu từ logic và trạng thái hữu hạn.  ·  [A]",
+    "sourceNumber": 34
+  },
+  {
+    "id": 35,
+    "text": "Trong CU dùng vi chương trình, một vi chương trình được cấu thành từ gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Một tập thanh ghi địa chỉ vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Một dãy vi lệnh trong bộ nhớ điều khiển"
+      },
+      {
+        "id": "C",
+        "text": "Một dãy sector trên bộ nhớ ngoài"
+      },
+      {
+        "id": "D",
+        "text": "Một nhóm đường tín hiệu của bus"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương II, slide 24-25. Bộ nhớ vi chương trình giữ các vi lệnh điều phối lệnh máy.  ·  [A]",
+    "sourceNumber": 35
+  },
+  {
+    "id": 36,
+    "text": "Giai đoạn nào đưa lệnh từ bộ nhớ vào bộ xử lý trước khi xét ý nghĩa của lệnh?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hoàn tất (Write-back)"
+      },
+      {
+        "id": "B",
+        "text": "Thực thi (Execute)"
+      },
+      {
+        "id": "C",
+        "text": "Nạp (Fetch)"
+      },
+      {
+        "id": "D",
+        "text": "Giải mã (Decode)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 26. Slide 26 trình bày nạp trước, giải mã sau.  ·  [H]",
+    "sourceNumber": 36
+  },
+  {
+    "id": 37,
+    "text": "CPU xác định thao tác mà mã lệnh yêu cầu ở giai đoạn nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nạp (Fetch)"
+      },
+      {
+        "id": "B",
+        "text": "Hoàn tất (Write-back)"
+      },
+      {
+        "id": "C",
+        "text": "Thực thi (Execute)"
+      },
+      {
+        "id": "D",
+        "text": "Giải mã (Decode)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương II, slide 26. Giải mã xác định ý nghĩa lệnh và phần cứng cần tham gia.  ·  [H]",
+    "sourceNumber": 37
+  },
+  {
+    "id": 38,
+    "text": "Việc đưa kết quả vừa tính vào thanh ghi hay bộ nhớ chính thuộc giai đoạn nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nạp (Fetch)"
+      },
+      {
+        "id": "B",
+        "text": "Giải mã (Decode)"
+      },
+      {
+        "id": "C",
+        "text": "Tiền nạp (Prefetch)"
+      },
+      {
+        "id": "D",
+        "text": "Hoàn tất (Write-back)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương II, slide 27. Slide 27 đặt thao tác cất kết quả ở giai đoạn hoàn tất.  ·  [H]",
+    "sourceNumber": 38
+  },
+  {
+    "id": 39,
+    "text": "Cặp ký hiệu nào chỉ đúng cache lệnh và cache dữ liệu trong ví dụ 2 + 3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DU và CU"
+      },
+      {
+        "id": "B",
+        "text": "IC và DC"
+      },
+      {
+        "id": "C",
+        "text": "DC và IC"
+      },
+      {
+        "id": "D",
+        "text": "PU và DU"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương II, slide 28. IC là Instruction Cache, DC là Data Cache.  ·  Tự soạn",
+    "sourceNumber": 39
+  },
+  {
+    "id": 40,
+    "text": "Trong ví dụ 2 + 3 của bài, thao tác khi nhấn dấu bằng làm gì với kết quả đã tính?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lưu chương trình vào chip ROM BIOS"
+      },
+      {
+        "id": "B",
+        "text": "Đưa toán hạng từ màn hình về cache lệnh"
+      },
+      {
+        "id": "C",
+        "text": "Lấy kết quả từ thanh ghi để xuất ra màn hình"
+      },
+      {
+        "id": "D",
+        "text": "Yêu cầu ALU cộng lại hai toán hạng từ đầu"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 33-37. Mã Print Z dùng giá trị đã được lưu ở bước tính tổng.  ·  Tự soạn",
+    "sourceNumber": 40
+  },
+  {
+    "id": 41,
+    "text": "Theo phân loại theo vị trí ở slide 4, CPU giao tiếp với bộ nhớ ngoài qua thành phần nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ đếm chương trình PC"
+      },
+      {
+        "id": "B",
+        "text": "Bộ điều khiển vào/ra (I/O Controller)"
+      },
+      {
+        "id": "C",
+        "text": "Bộ giải mã DU"
+      },
+      {
+        "id": "D",
+        "text": "Bộ làm toán ALU"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương III, slide 4. Bộ nhớ ngoài được truy cập qua hệ thống vào/ra.  ·  [Q]",
+    "sourceNumber": 41
+  },
+  {
+    "id": 42,
+    "text": "Đơn vị xác định bằng một địa chỉ riêng, có thể là byte hoặc word tùy kiến trúc, được gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chu kỳ bộ nhớ"
+      },
+      {
+        "id": "B",
+        "text": "Bộ đệm địa chỉ"
+      },
+      {
+        "id": "C",
+        "text": "Tốc độ truyền"
+      },
+      {
+        "id": "D",
+        "text": "Đơn vị khả định địa chỉ"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 5-8. Slide 7 mô tả kích thước cơ bản của ô được định địa chỉ.  ·  [Q]",
+    "sourceNumber": 42
+  },
+  {
+    "id": 43,
+    "text": "Đơn vị truyền thường dùng cho bộ nhớ ngoài, lớn hơn một word, gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thanh ghi (Register)"
+      },
+      {
+        "id": "B",
+        "text": "Bit dấu (Sign Bit)"
+      },
+      {
+        "id": "C",
+        "text": "Khối (Block)"
+      },
+      {
+        "id": "D",
+        "text": "Chu kỳ (Cycle)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 8. Slide 8 gọi đơn vị truyền lớn của bộ nhớ ngoài là khối.  ·  [Q]",
+    "sourceNumber": 43
+  },
+  {
+    "id": 44,
+    "text": "Chương III liệt kê bao nhiêu phương thức truy cập bộ nhớ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bốn"
+      },
+      {
+        "id": "B",
+        "text": "Năm"
+      },
+      {
+        "id": "C",
+        "text": "Hai"
+      },
+      {
+        "id": "D",
+        "text": "Ba"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 9. Gồm tuần tự, trực tiếp, ngẫu nhiên và liên kết.  ·  [Q]",
+    "sourceNumber": 44
+  },
+  {
+    "id": 45,
+    "text": "Thiết bị phải di chuyển qua các bản ghi theo thứ tự để đến mục cần. Phương thức nào phù hợp nhất?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truy cập trực tiếp (Direct Access)"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập ngẫu nhiên (Random Access)"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập liên kết (Associative Access)"
+      },
+      {
+        "id": "D",
+        "text": "Truy cập tuần tự (Sequential Access)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 10-11. Băng từ là ví dụ của cách truy cập tuần tự.  ·  [Q]",
+    "sourceNumber": 45
+  },
+  {
+    "id": 46,
+    "text": "Đĩa từ tìm đến vùng gần dữ liệu rồi chờ bộ phận đọc tới vị trí yêu cầu. Đây là cách truy cập nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truy cập tuần tự (Sequential Access)"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập liên kết (Associative Access)"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập ngẫu nhiên (Random Access)"
+      },
+      {
+        "id": "D",
+        "text": "Truy cập trực tiếp (Direct Access)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 12. Truy cập trực tiếp đến vùng rồi định vị mục nên thời gian có thể thay đổi.  ·  [Q]",
+    "sourceNumber": 46
+  },
+  {
+    "id": 47,
+    "text": "Phương thức nào dùng địa chỉ để chọn ô nhớ với thời gian độc lập với lần truy cập trước, theo mô hình của bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truy cập ngẫu nhiên (Random Access)"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập liên kết (Associative Access)"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập tuần tự (Sequential Access)"
+      },
+      {
+        "id": "D",
+        "text": "Truy cập trực tiếp (Direct Access)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 13. Slide 13 lấy bộ nhớ chính làm ví dụ.  ·  [Q]",
+    "sourceNumber": 47
+  },
+  {
+    "id": 48,
+    "text": "Phương thức nào tìm mục dữ liệu bằng cách so khớp mẫu bit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truy cập liên kết (Associative Access)"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập tuần tự (Sequential Access)"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập ngẫu nhiên (Random Access)"
+      },
+      {
+        "id": "D",
+        "text": "Truy cập trực tiếp (Direct Access)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 14. Slide 14 nhấn mạnh việc kết hợp so sánh nội dung bit.  ·  [Q]",
+    "sourceNumber": 48
+  },
+  {
+    "id": 49,
+    "text": "RAM chính giữ nội dung khi được cấp điện và mất nội dung khi ngắt nguồn. Theo đặc tính vật lý, nó thuộc loại nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ nhớ bất biến (Non-volatile Memory)"
+      },
+      {
+        "id": "B",
+        "text": "Bộ nhớ khả biến (Volatile Memory)"
+      },
+      {
+        "id": "C",
+        "text": "Bộ nhớ quang (Optical Memory)"
+      },
+      {
+        "id": "D",
+        "text": "Bộ nhớ từ tính (Magnetic Memory)"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương III, slide 15. Mất dữ liệu khi mất điện là tiêu chí nhận diện bộ nhớ khả biến.  ·  [G]",
+    "sourceNumber": 49
+  },
+  {
+    "id": 50,
+    "text": "Khoảng từ lúc đưa địa chỉ tới lúc dữ liệu sẵn sàng được gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dung lượng bộ nhớ (Capacity)"
+      },
+      {
+        "id": "B",
+        "text": "Thời gian truy cập (Access Time)"
+      },
+      {
+        "id": "C",
+        "text": "Tốc độ truyền (Transfer Rate)"
+      },
+      {
+        "id": "D",
+        "text": "Độ dài từ nhớ (Word Length)"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương III, slide 16. Slide 16 xác định thời gian truy cập bằng mốc gửi địa chỉ và nhận dữ liệu.  ·  [D]",
+    "sourceNumber": 50
+  },
+  {
+    "id": 51,
+    "text": "Đại lượng nào tính cả thời gian phụ thêm trước khi có thể bắt đầu lần truy cập tiếp theo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chu kỳ bộ nhớ (Memory Cycle Time)"
+      },
+      {
+        "id": "B",
+        "text": "Tốc độ truyền (Transfer Rate)"
+      },
+      {
+        "id": "C",
+        "text": "Dung lượng bộ nhớ (Capacity)"
+      },
+      {
+        "id": "D",
+        "text": "Thời gian truy cập (Access Time)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 16, 19. Chu kỳ đo khoảng giữa hai lần bắt đầu truy cập.  ·  [Q]",
+    "sourceNumber": 51
+  },
+  {
+    "id": 52,
+    "text": "Ô SRAM giữ một bit bằng cấu trúc gì theo mô tả của bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Một khối flash xóa theo ổ"
+      },
+      {
+        "id": "B",
+        "text": "Một vùng từ tính trên phiến đĩa quay"
+      },
+      {
+        "id": "C",
+        "text": "Mạch logic dùng các transistor để giữ trạng thái"
+      },
+      {
+        "id": "D",
+        "text": "Một tụ điện và một transistor cần nạp lại định kỳ"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 20. SRAM giữ trạng thái khi có điện mà không cần làm tươi như DRAM.  ·  [H]",
+    "sourceNumber": 52
+  },
+  {
+    "id": 53,
+    "text": "Vì sao DRAM trong bài cần làm tươi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bit lưu bằng mạch chốt bị thay đổi khi xung CPU tăng"
+      },
+      {
+        "id": "B",
+        "text": "Điện tích trong tụ lưu bit bị suy giảm theo thời gian"
+      },
+      {
+        "id": "C",
+        "text": "Đầu đọc phải tiếp tục quay để giữ vị trí rãnh"
+      },
+      {
+        "id": "D",
+        "text": "Bộ điều khiển phải xóa toàn bộ bộ nhớ sau mỗi lần đọc"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương III, slide 21-22. Ô DRAM dùng tụ điện, cần đọc và ghi lại để phục hồi điện tích.  ·  [G]",
+    "sourceNumber": 53
+  },
+  {
+    "id": 54,
+    "text": "SDR và DDR khác nhau thế nào về số lần truyền dữ liệu trong mỗi chu kỳ xung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SDR truyền một lần, DDR truyền hai lần"
+      },
+      {
+        "id": "B",
+        "text": "SDR truyền hai lần, DDR truyền một lần"
+      },
+      {
+        "id": "C",
+        "text": "Cả hai truyền một lần, khác nhau về dung lượng"
+      },
+      {
+        "id": "D",
+        "text": "Cả hai truyền hai lần, khác nhau về kiểu truy cập"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 23, 25-26. DDR truyền ở cả sườn lên và sườn xuống.  ·  [G]",
+    "sourceNumber": 54
+  },
+  {
+    "id": 55,
+    "text": "Bộ nhớ nào được bài nêu để chứa chương trình khởi động hoặc điều khiển thiết bị?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thanh ghi trong ALU"
+      },
+      {
+        "id": "B",
+        "text": "DRAM (Dynamic RAM)"
+      },
+      {
+        "id": "C",
+        "text": "ROM (Read-Only Memory)"
+      },
+      {
+        "id": "D",
+        "text": "Cache L1 dùng cho phép toán hiện thời"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 31. Slide 31 mô tả ROM dùng giữ chương trình ổn định.  ·  Tự soạn",
+    "sourceNumber": 55
+  },
+  {
+    "id": 56,
+    "text": "Khi đi từ thanh ghi ra tới ổ đĩa trong hình phân cấp, xu hướng chung của tốc độ và giá mỗi bit là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cả tốc độ và giá mỗi bit thường tăng"
+      },
+      {
+        "id": "B",
+        "text": "Tốc độ tăng, giá mỗi bit giảm"
+      },
+      {
+        "id": "C",
+        "text": "Cả tốc độ và giá mỗi bit thường giảm"
+      },
+      {
+        "id": "D",
+        "text": "Tốc độ giảm, giá mỗi bit tăng"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 3, 33, 35-36. Các cấp xa CPU hơn thường lớn hơn, chậm hơn và rẻ hơn mỗi bit.  ·  [H]",
+    "sourceNumber": 56
+  },
+  {
+    "id": 57,
+    "text": "Một biến đếm vừa đọc được đọc lại ở ngay vòng lặp tiếp theo. Đây là ví dụ của nguyên tắc nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tái định vị địa chỉ (Address Relocation)"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập trực tiếp (Direct Access)"
+      },
+      {
+        "id": "C",
+        "text": "Cục bộ thời gian (Temporal Locality)"
+      },
+      {
+        "id": "D",
+        "text": "Cục bộ không gian (Spatial Locality)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 39-40. Cùng một vị trí có khả năng được truy cập lại sớm.  ·  [H]",
+    "sourceNumber": 57
+  },
+  {
+    "id": 58,
+    "text": "Chương trình đọc lần lượt các phần tử liền nhau trong một mảng. Đặc điểm nào giúp cache dự đoán dữ liệu sẽ dùng?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Địa chỉ hóa theo byte (Byte Addressing)"
+      },
+      {
+        "id": "B",
+        "text": "Cục bộ thời gian (Temporal Locality)"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập liên kết (Associative Access)"
+      },
+      {
+        "id": "D",
+        "text": "Cục bộ không gian (Spatial Locality)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 39, 41. Những địa chỉ lân cận có khả năng được truy cập tiếp.  ·  [H]",
+    "sourceNumber": 58
+  },
+  {
+    "id": 59,
+    "text": "Kỹ thuật nào trong bài cho phép mỗi dãy nhớ có bus địa chỉ và bus dữ liệu riêng?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đan chéo đơn giản dùng chung bus"
+      },
+      {
+        "id": "B",
+        "text": "Mở rộng chiều dài từ nhớ"
+      },
+      {
+        "id": "C",
+        "text": "Đọc tuần tự từng bản ghi"
+      },
+      {
+        "id": "D",
+        "text": "Đan chéo với các dãy độc lập"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 45-48. Slide 48 minh họa nhiều dãy làm việc độc lập.  ·  Tự soạn",
+    "sourceNumber": 59
+  },
+  {
+    "id": 60,
+    "text": "Hình địa chỉ ảo ở slide 50 minh họa cơ chế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ghi cố định toàn bộ chương trình vào ROM khi khởi động"
+      },
+      {
+        "id": "B",
+        "text": "Ánh xạ phần chương trình vào các vị trí trong RAM và có thể giữ phần khác trên đĩa"
+      },
+      {
+        "id": "C",
+        "text": "Mọi địa chỉ ảo luôn trùng địa chỉ vật lý"
+      },
+      {
+        "id": "D",
+        "text": "Mọi phần chương trình luôn nằm trong thanh ghi"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương III, slide 49-51. Bộ nhớ ảo quản lý việc trao đổi dữ liệu giữa bộ nhớ trong và ngoài.  ·  [D]",
+    "sourceNumber": 60
+  },
+  {
+    "id": 61,
+    "text": "Một HDD trong mô tả của bài thường có hai đầu nối với chức năng nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truyền dữ liệu và xuất hình ảnh"
+      },
+      {
+        "id": "B",
+        "text": "Cấp điện và truyền dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Truyền dữ liệu và nối dây anten"
+      },
+      {
+        "id": "D",
+        "text": "Cấp điện và xuất âm thanh"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương IV, slide 3. Slide phân biệt đầu nguồn với giao diện dữ liệu.  ·  Tự soạn",
+    "sourceNumber": 61
+  },
+  {
+    "id": 62,
+    "text": "Bộ phận nào làm cho các phiến đĩa HDD quay quanh trục?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Động cơ trục quay (Spindle Motor)"
+      },
+      {
+        "id": "B",
+        "text": "Đầu kết nối dữ liệu (Data Connector)"
+      },
+      {
+        "id": "C",
+        "text": "Đầu cảm biến (Read/Write Head)"
+      },
+      {
+        "id": "D",
+        "text": "Cơ cấu tay đầu đọc (Actuator)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương IV, slide 4-5. Hình cấu tạo gọi động cơ làm quay trục là Spindle Motor.  ·  Tự soạn",
+    "sourceNumber": 62
+  },
+  {
+    "id": 63,
+    "text": "Một vòng đồng tâm trên bề mặt phiến đĩa được gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Track (rãnh)"
+      },
+      {
+        "id": "B",
+        "text": "Sector (cung)"
+      },
+      {
+        "id": "C",
+        "text": "Cluster (cụm)"
+      },
+      {
+        "id": "D",
+        "text": "Cylinder (trụ)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương IV, slide 6-7. Mỗi track là một vòng tròn trên một mặt đĩa.  ·  [G]",
+    "sourceNumber": 63
+  },
+  {
+    "id": 64,
+    "text": "Khi chia một rãnh thành nhiều phần nhỏ, mỗi phần trong sơ đồ gọi là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Track (rãnh)"
+      },
+      {
+        "id": "B",
+        "text": "Landing Zone (vùng đỗ)"
+      },
+      {
+        "id": "C",
+        "text": "Cylinder (trụ)"
+      },
+      {
+        "id": "D",
+        "text": "Sector (cung)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương IV, slide 6-7. Sector là phần của một track.  ·  [G]",
+    "sourceNumber": 64
+  },
+  {
+    "id": 65,
+    "text": "Nếu chồng các rãnh cùng bán kính trên nhiều mặt đĩa, ta được cấu trúc nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sector (cung)"
+      },
+      {
+        "id": "B",
+        "text": "Cluster (cụm)"
+      },
+      {
+        "id": "C",
+        "text": "Cylinder (trụ)"
+      },
+      {
+        "id": "D",
+        "text": "Spindle (trục)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương IV, slide 6-7. Cylinder gồm các track cùng vị trí trên các mặt ghi.  ·  [G]",
+    "sourceNumber": 65
+  },
+  {
+    "id": 66,
+    "text": "Một tập hợp nhiều sector được gọi là gì trong phần cụm đĩa từ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Track (rãnh)"
+      },
+      {
+        "id": "B",
+        "text": "Head (đầu đọc/ghi)"
+      },
+      {
+        "id": "C",
+        "text": "Cluster (cụm)"
+      },
+      {
+        "id": "D",
+        "text": "Landing Zone (vùng đỗ)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương IV, slide 6. Slide 6 định nghĩa cluster là nhóm sector.  ·  Tự soạn",
+    "sourceNumber": 66
+  },
+  {
+    "id": 67,
+    "text": "Vị trí đầu đọc/ghi dừng tạm theo mô tả của bài được gọi thế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cluster (cụm)"
+      },
+      {
+        "id": "B",
+        "text": "Cylinder (trụ)"
+      },
+      {
+        "id": "C",
+        "text": "Data Sector (cung dữ liệu)"
+      },
+      {
+        "id": "D",
+        "text": "Landing Zone (vùng đỗ đầu đọc)"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương IV, slide 6-7. Landing Zone là vùng đỗ của đầu đọc/ghi.  ·  Tự soạn",
+    "sourceNumber": 67
+  },
+  {
+    "id": 68,
+    "text": "Để đưa đầu đọc đến dữ liệu đích, HDD phối hợp hai chuyển động nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đĩa quay và đầu đọc dịch theo phương bán kính"
+      },
+      {
+        "id": "B",
+        "text": "Đĩa dịch theo bán kính và trục đầu đọc quay đồng tâm"
+      },
+      {
+        "id": "C",
+        "text": "Cả đĩa và đầu đọc chỉ tịnh tiến theo chiều trục"
+      },
+      {
+        "id": "D",
+        "text": "Đầu đọc đứng yên và toàn bộ ổ di chuyển"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương IV, slide 8-9. Động cơ quay phiến, còn cơ cấu truyền động đưa đầu đọc tới rãnh.  ·  [H]",
+    "sourceNumber": 68
+  },
+  {
+    "id": 69,
+    "text": "Nhãn 7.200 rpm trên HDD chỉ thông số nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cáp truyền 7.200 megabyte mỗi giây"
+      },
+      {
+        "id": "B",
+        "text": "Mỗi cung chứa 7.200 byte"
+      },
+      {
+        "id": "C",
+        "text": "Đầu đọc quét 7.200 rãnh mỗi giây"
+      },
+      {
+        "id": "D",
+        "text": "Trục đĩa quay 7.200 vòng mỗi phút"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương IV, slide 10. rpm là số vòng quay mỗi phút.  ·  [G]",
+    "sourceNumber": 69
+  },
+  {
+    "id": 70,
+    "text": "Theo mô hình CHS của slide, ổ có 100 cylinder, 4 đầu, 32 sector mỗi rãnh và 512 byte mỗi sector chứa được bao nhiêu byte?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.276.800 byte"
+      },
+      {
+        "id": "B",
+        "text": "6.553.600 byte"
+      },
+      {
+        "id": "C",
+        "text": "12.800 byte"
+      },
+      {
+        "id": "D",
+        "text": "52.428.800 byte"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương IV, slide 11. Nhân 100 × 4 × 32 × 512 để tính dung lượng theo mô hình.  ·  [P]",
+    "sourceNumber": 70
+  },
+  {
+    "id": 71,
+    "text": "Cặp tên nào chỉ chuẩn truyền song song và chuẩn truyền nối tiếp trong phần giao tiếp ổ đĩa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PATA và SATA"
+      },
+      {
+        "id": "B",
+        "text": "SATA và PATA"
+      },
+      {
+        "id": "C",
+        "text": "SCSI và IDE"
+      },
+      {
+        "id": "D",
+        "text": "SATA và SCSI"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương IV, slide 12. PATA là Parallel ATA, SATA là Serial ATA.  ·  [P]",
+    "sourceNumber": 71
+  },
+  {
+    "id": 72,
+    "text": "Đầu nối cáp dữ liệu IDE trong hình có bao nhiêu chân?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 chân"
+      },
+      {
+        "id": "B",
+        "text": "40 chân"
+      },
+      {
+        "id": "C",
+        "text": "7 chân"
+      },
+      {
+        "id": "D",
+        "text": "80 chân"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương IV, slide 12, 15-16. IDE có đầu 40 chân. Cáp trong bài có thể có 40 hoặc 80 sợi.  ·  [P]",
+    "sourceNumber": 72
+  },
+  {
+    "id": 73,
+    "text": "So giới hạn thiết bị trên một cáp dữ liệu, cặp nào khớp với bảng trong bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PATA tối đa 2, SATA tối đa 2"
+      },
+      {
+        "id": "B",
+        "text": "PATA 1, SATA 1"
+      },
+      {
+        "id": "C",
+        "text": "PATA tối đa 2, SATA 1"
+      },
+      {
+        "id": "D",
+        "text": "PATA 1, SATA tối đa 2"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương IV, slide 12, 14-15. Cáp PATA nối tối đa hai thiết bị, SATA nối điểm-điểm với một thiết bị.  ·  [P]",
+    "sourceNumber": 73
+  },
+  {
+    "id": 74,
+    "text": "Trong hình ổ SATA, số chân của đầu dữ liệu rồi đến đầu nguồn là bao nhiêu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 chân và 15 chân"
+      },
+      {
+        "id": "B",
+        "text": "40 chân và 4 chân"
+      },
+      {
+        "id": "C",
+        "text": "15 chân và 7 chân"
+      },
+      {
+        "id": "D",
+        "text": "4 chân và 40 chân"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương IV, slide 15, 17. Đối chiếu bảng slide 15 với hai đầu nối được chú thích ở slide 17.  ·  Tự soạn",
+    "sourceNumber": 74
+  },
+  {
+    "id": 75,
+    "text": "Tốc độ truyền nêu cho SATA 2 trong slide là bao nhiêu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "133 MB/s"
+      },
+      {
+        "id": "B",
+        "text": "66 MB/s"
+      },
+      {
+        "id": "C",
+        "text": "150 MB/s"
+      },
+      {
+        "id": "D",
+        "text": "300 MB/s"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương IV, slide 13-15. Slide ghi SATA 1 là 150 MB/s và SATA 2 là 300 MB/s.  ·  Tự soạn",
+    "sourceNumber": 75
+  },
+  {
+    "id": 76,
+    "text": "SSD thể rắn được mô tả trong bài sử dụng công nghệ nào để lưu dữ liệu khi ngắt điện?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DRAM dùng làm bộ đệm"
+      },
+      {
+        "id": "B",
+        "text": "Bộ nhớ NAND Flash"
+      },
+      {
+        "id": "C",
+        "text": "Các phiến đĩa quay phủ vật liệu từ"
+      },
+      {
+        "id": "D",
+        "text": "Mạch chốt SRAM"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương IV, slide 18. Phần kết của slide 18 xác định phương tiện lưu trữ là NAND Flash.  ·  Tự soạn",
+    "sourceNumber": 76
+  },
+  {
+    "id": 77,
+    "text": "Thuật toán wear leveling trên SSD nhằm làm gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tăng số vòng quay của trục bên trong ổ"
+      },
+      {
+        "id": "B",
+        "text": "Phân bố các lần ghi/xóa qua các vùng flash để giảm hao mòn tập trung"
+      },
+      {
+        "id": "C",
+        "text": "Đặt hai thiết bị chung một cáp dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Xếp lại phiến đĩa để giảm rung khi đọc"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương IV, slide 19. Cân bằng hao mòn nhằm dùng các ô flash đồng đều hơn.  ·  Tự soạn",
+    "sourceNumber": 77
+  },
+  {
+    "id": 78,
+    "text": "Đặc điểm nào giúp SSD tránh thời gian chờ đĩa đạt tốc độ quay khi đọc dữ liệu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tăng số đầu đọc trên một phiến đĩa"
+      },
+      {
+        "id": "B",
+        "text": "Phân bố track thành nhiều cylinder độc lập"
+      },
+      {
+        "id": "C",
+        "text": "Truy cập điện tử vào chip nhớ mà không cần cơ cấu quay"
+      },
+      {
+        "id": "D",
+        "text": "Tăng tốc trục quay ngay trước khi truyền dữ liệu"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương IV, slide 20-21. Slide so sánh chip nhớ với cơ cấu quay của HDD.  ·  [E]",
+    "sourceNumber": 78
+  },
+  {
+    "id": 79,
+    "text": "Ổ cứng lai trong bài kết hợp các phần nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hai HDD quay cùng trục"
+      },
+      {
+        "id": "B",
+        "text": "Hai chip ROM BIOS chính và dự phòng"
+      },
+      {
+        "id": "C",
+        "text": "Ổ đĩa quang và thanh RAM"
+      },
+      {
+        "id": "D",
+        "text": "Ổ đĩa từ HDD và vùng nhớ flash"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương IV, slide 23-24. Ổ lai bổ sung flash trên bo mạch của HDD.  ·  Tự soạn",
+    "sourceNumber": 79
+  },
+  {
+    "id": 80,
+    "text": "Ổ lai có thể tăng tốc khởi động hệ điều hành nhờ cách nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chuyển dữ liệu khởi động vào thanh ghi ALU"
+      },
+      {
+        "id": "B",
+        "text": "Đổi cáp SATA thành cáp PATA hai thiết bị"
+      },
+      {
+        "id": "C",
+        "text": "Giữ các tệp khởi động hay dùng trong vùng flash"
+      },
+      {
+        "id": "D",
+        "text": "Tăng số đầu đọc trên các mặt đĩa"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương IV, slide 24-25. Slide 25 nêu lưu tập tin khởi động trên vùng flash của ổ lai.  ·  Tự soạn",
+    "sourceNumber": 80
+  },
+  {
+    "id": 81,
+    "text": "Vai trò nào mô tả đúng bo mạch chủ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lưu tất cả tệp người dùng thay cho ổ đĩa"
+      },
+      {
+        "id": "B",
+        "text": "Cấp nguồn trực tiếp từ lưới cho toàn bộ máy"
+      },
+      {
+        "id": "C",
+        "text": "Thực hiện riêng các phép toán của ALU"
+      },
+      {
+        "id": "D",
+        "text": "Làm bảng mạch kết nối linh kiện thành một hệ thống"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương V, slide 5, 7. Mainboard liên kết phần cứng và điều phối giao tiếp giữa các thiết bị.  ·  [P]",
+    "sourceNumber": 81
+  },
+  {
+    "id": 82,
+    "text": "Mô hình chipset cổ điển trong sơ đồ có hai khối mang tên nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Control Unit và ALU"
+      },
+      {
+        "id": "B",
+        "text": "Northbridge và Southbridge"
+      },
+      {
+        "id": "C",
+        "text": "Main BIOS và Backup BIOS"
+      },
+      {
+        "id": "D",
+        "text": "Instruction Cache và Data Cache"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 9, 13-14. Hai IC là cầu Bắc (Northbridge) và cầu Nam (Southbridge).  ·  [P]",
+    "sourceNumber": 82
+  },
+  {
+    "id": 83,
+    "text": "Theo sơ đồ slide 14, cầu Bắc nối trực tiếp với nhóm linh kiện nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PCI, ROM BIOS và ổ đĩa IDE"
+      },
+      {
+        "id": "B",
+        "text": "CPU, RAM và AGP"
+      },
+      {
+        "id": "C",
+        "text": "IDE, ROM BIOS và USB"
+      },
+      {
+        "id": "D",
+        "text": "PCI, IDE và ROM BIOS"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 14. Khi trả lời dùng mô hình hai cầu được vẽ trong slide.  ·  [P]",
+    "sourceNumber": 83
+  },
+  {
+    "id": 84,
+    "text": "Trong hình slide 14, ROM BIOS và IDE nối trực tiếp với cầu nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cầu Bắc (Northbridge)"
+      },
+      {
+        "id": "B",
+        "text": "Cả hai nối qua khe AGP"
+      },
+      {
+        "id": "C",
+        "text": "Cầu Nam (Southbridge)"
+      },
+      {
+        "id": "D",
+        "text": "Cả hai nối thẳng vào CPU"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương V, slide 8, 14. Nhánh cầu Nam trong hình đi tới ROM BIOS, IDE và PCI.  ·  [P]",
+    "sourceNumber": 84
+  },
+  {
+    "id": 85,
+    "text": "Theo ví dụ nạp nhạc MP3 ở slide 11, dữ liệu từ ổ cứng đi theo đường nào để tới RAM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IDE → cầu Bắc → cầu Nam → RAM"
+      },
+      {
+        "id": "B",
+        "text": "IDE → cầu Nam → cầu Bắc → RAM"
+      },
+      {
+        "id": "C",
+        "text": "AGP → cầu Bắc → PCI → RAM"
+      },
+      {
+        "id": "D",
+        "text": "PCI → cầu Bắc → IDE → RAM"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 10-12. Ví dụ bắt đầu từ ổ cứng IDE, qua hai cầu rồi tới RAM.  ·  Tự soạn",
+    "sourceNumber": 85
+  },
+  {
+    "id": 86,
+    "text": "Với kiểu Slot ở ví dụ Pentium 2, CPU được lắp theo cách nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đặt trực tiếp lên đế Socket 370"
+      },
+      {
+        "id": "B",
+        "text": "Gắn thẳng vào khe PCI bằng cáp"
+      },
+      {
+        "id": "C",
+        "text": "Gắn trên một vỉ mạch rồi cắm vỉ vào khe"
+      },
+      {
+        "id": "D",
+        "text": "Lắp vào khe nhớ SDRAM qua vỉ chuyển"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương V, slide 15-16. Slide 15 minh họa CPU đi cùng vỉ mạch.  ·  Tự soạn",
+    "sourceNumber": 86
+  },
+  {
+    "id": 87,
+    "text": "Đế Socket 939 trong nhóm ví dụ ở bài được ghép với CPU hãng nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intel"
+      },
+      {
+        "id": "B",
+        "text": "Motorola"
+      },
+      {
+        "id": "C",
+        "text": "IBM"
+      },
+      {
+        "id": "D",
+        "text": "AMD"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương V, slide 17-20. Slide 20 và 32 ghép Socket 939 với CPU AMD.  ·  Tự soạn",
+    "sourceNumber": 87
+  },
+  {
+    "id": 88,
+    "text": "Khe DDRam trong ví dụ slide 22 được minh họa cho dòng máy nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pentium 4"
+      },
+      {
+        "id": "B",
+        "text": "Pentium 2"
+      },
+      {
+        "id": "C",
+        "text": "Máy IAS"
+      },
+      {
+        "id": "D",
+        "text": "Pentium 3"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương V, slide 21-22. Slide 22 ghi DDRam cho máy Pentium 4 trong nhóm ví dụ.  ·  Tự soạn",
+    "sourceNumber": 88
+  },
+  {
+    "id": 89,
+    "text": "ISA ở mục khe mở rộng của chương V viết đầy đủ là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instruction Set Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Internal System Access"
+      },
+      {
+        "id": "C",
+        "text": "Industry Standard Architecture"
+      },
+      {
+        "id": "D",
+        "text": "Integrated Serial Attachment"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương V, slide 23. Chữ ISA trong chương V chỉ chuẩn khe cắm mở rộng đời cũ.  ·  Tự soạn",
+    "sourceNumber": 89
+  },
+  {
+    "id": 90,
+    "text": "Chuẩn khe mở rộng nào viết đầy đủ là Peripheral Component Interconnect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AGP"
+      },
+      {
+        "id": "B",
+        "text": "PCI"
+      },
+      {
+        "id": "C",
+        "text": "SATA"
+      },
+      {
+        "id": "D",
+        "text": "ISA"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 24. Slide 24 ghi PCI là liên kết thiết bị ngoại vi.  ·  Tự soạn",
+    "sourceNumber": 90
+  },
+  {
+    "id": 91,
+    "text": "Trong các chuẩn được liệt kê, loại nào được thiết kế riêng cho card đồ họa trong bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PCI (Peripheral Component Interconnect)"
+      },
+      {
+        "id": "B",
+        "text": "IDE (Integrated Drive Electronics)"
+      },
+      {
+        "id": "C",
+        "text": "AGP (Accelerated Graphics Port)"
+      },
+      {
+        "id": "D",
+        "text": "ISA (Industry Standard Architecture)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương V, slide 25. Slide 25 nêu chức năng dành cho card video có hỗ trợ đồ họa.  ·  [P]",
+    "sourceNumber": 91
+  },
+  {
+    "id": 92,
+    "text": "PCI Express x16 trong ví dụ được giới thiệu như khe cắm thiết bị nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thanh RAM"
+      },
+      {
+        "id": "B",
+        "text": "Card màn hình"
+      },
+      {
+        "id": "C",
+        "text": "Chip ROM BIOS"
+      },
+      {
+        "id": "D",
+        "text": "Ổ cứng IDE"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 26. Slide 26 minh họa khe PCIe x16 dùng cho card đồ họa.  ·  Tự soạn",
+    "sourceNumber": 92
+  },
+  {
+    "id": 93,
+    "text": "Cổng nào được đánh dấu để nối màn hình trên hình cụm cổng sau?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LPT"
+      },
+      {
+        "id": "B",
+        "text": "RJ-45 (LAN)"
+      },
+      {
+        "id": "C",
+        "text": "VGA (D-sub)"
+      },
+      {
+        "id": "D",
+        "text": "PS/2"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương V, slide 28. Nhãn VGA/D-sub chỉ cổng hình ảnh.  ·  [P]",
+    "sourceNumber": 93
+  },
+  {
+    "id": 94,
+    "text": "Nhãn RJ-45 trên hình cụm cổng sau gắn với chức năng nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Xuất hình ảnh VGA"
+      },
+      {
+        "id": "B",
+        "text": "Nối bàn phím PS/2"
+      },
+      {
+        "id": "C",
+        "text": "Cấp nguồn cho ổ SATA"
+      },
+      {
+        "id": "D",
+        "text": "Nối mạng LAN"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương V, slide 28. Hình chú thích RJ-45 Gigabit LAN port.  ·  [P]",
+    "sourceNumber": 94
+  },
+  {
+    "id": 95,
+    "text": "Linh kiện nào được gọi tên trên ảnh bo mạch, ở gần nhóm khe và cổng ngoài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pin CMOS"
+      },
+      {
+        "id": "B",
+        "text": "Đầu đọc/ghi đĩa"
+      },
+      {
+        "id": "C",
+        "text": "Phiến đĩa từ"
+      },
+      {
+        "id": "D",
+        "text": "Động cơ spindle"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương V, slide 29. Hình slide 29 có chú thích pin CMOS trên mainboard.  ·  Tự soạn",
+    "sourceNumber": 95
+  },
+  {
+    "id": 96,
+    "text": "Trong đúng ví dụ bo mạch có hai cặp khe ở slide 34-35, chọn vị trí nào cho hai thanh để dùng kênh đôi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hai khe cùng màu thuộc hai cặp khác nhau"
+      },
+      {
+        "id": "B",
+        "text": "Mỗi thanh lắp vào một khe PCI"
+      },
+      {
+        "id": "C",
+        "text": "Một thanh ở khe RAM và một thanh ở khe CPU"
+      },
+      {
+        "id": "D",
+        "text": "Hai khe khác màu trong một cặp"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương V, slide 34-35. Quy tắc màu áp dụng cho bo minh họa. Bo khác đọc sơ đồ khe của hãng.  ·  Tự soạn",
+    "sourceNumber": 96
+  },
+  {
+    "id": 97,
+    "text": "Dual BIOS trên bo minh họa sử dụng hai bản firmware có vai trò gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bản cho CPU và bản cho RAM"
+      },
+      {
+        "id": "B",
+        "text": "Bản cho AGP và bản cho PCI"
+      },
+      {
+        "id": "C",
+        "text": "Bản cho HDD và bản cho SSD"
+      },
+      {
+        "id": "D",
+        "text": "Bản chính và bản dự phòng"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương V, slide 36. Bản dự phòng có thể phục hồi hoặc thay thế bản chính khi gặp lỗi.  ·  Tự soạn",
+    "sourceNumber": 97
+  },
+  {
+    "id": 98,
+    "text": "Cụm chữ BIOS được mở rộng đúng như thế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus Interface Operating Standard"
+      },
+      {
+        "id": "B",
+        "text": "Basic Internal Output Storage"
+      },
+      {
+        "id": "C",
+        "text": "Binary Integrated Operating System"
+      },
+      {
+        "id": "D",
+        "text": "Basic Input/Output System"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương V, slide 37. BIOS là hệ thống vào/ra cơ bản.  ·  [P]",
+    "sourceNumber": 98
+  },
+  {
+    "id": 99,
+    "text": "Theo bài, BIOS làm gì trước khi chuyển quyền điều khiển cho hệ điều hành?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Khởi tạo và kiểm tra các linh kiện cần cho quá trình bật máy"
+      },
+      {
+        "id": "B",
+        "text": "Nạp tất cả ứng dụng người dùng vào cache"
+      },
+      {
+        "id": "C",
+        "text": "Sao chép toàn bộ nội dung RAM vào ổ đĩa"
+      },
+      {
+        "id": "D",
+        "text": "Thay đổi phần cứng để tăng số lõi CPU"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương V, slide 38. Slide 38 nêu việc phát hiện và kiểm tra linh kiện trước khi giao quyền.  ·  [P]",
+    "sourceNumber": 99
+  },
+  {
+    "id": 100,
+    "text": "Trong ví dụ màn hình BIOS truyền thống, phím nào thường lưu cài đặt và thoát?",
+    "options": [
+      {
+        "id": "A",
+        "text": "F10"
+      },
+      {
+        "id": "B",
+        "text": "Esc"
+      },
+      {
+        "id": "C",
+        "text": "Delete"
+      },
+      {
+        "id": "D",
+        "text": "F2"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương V, slide 39. Slide 39 ghi F10 thường lưu các thiết lập khi đang ở BIOS Setup.  ·  [P]",
+    "sourceNumber": 100
+  },
+  {
+    "id": 101,
+    "text": "Theo hình phân cấp bộ nhớ, dữ liệu trao đổi giữa cache và bộ nhớ chính theo đơn vị nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vòng quay (Revolution)"
+      },
+      {
+        "id": "B",
+        "text": "Trang địa chỉ của ổ đĩa"
+      },
+      {
+        "id": "C",
+        "text": "Khối (Block)"
+      },
+      {
+        "id": "D",
+        "text": "Cung đĩa (Sector)"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương III, slide 33. Mũi tên nối Cache và Memory trên hình ghi Blocks. Câu được chỉnh để hỏi đúng nhãn có trên slide.  ·  HTML câu 1",
+    "sourceNumber": 101
+  },
+  {
+    "id": 102,
+    "text": "Hệ thống bus thực hiện chức năng nào trong sơ đồ các thành phần máy tính?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cất lâu dài các tệp chương trình"
+      },
+      {
+        "id": "B",
+        "text": "Liên kết CPU, bộ nhớ và các mô-đun vào/ra"
+      },
+      {
+        "id": "C",
+        "text": "Hiển thị kết quả ra màn hình"
+      },
+      {
+        "id": "D",
+        "text": "Thực hiện các phép toán số học"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương I, slide 20, 31-33. Slide 33 vẽ ba nhóm mô-đun nối với các tuyến bus.  ·  HTML câu 5",
+    "sourceNumber": 102
+  },
+  {
+    "id": 103,
+    "text": "Khi đi từ lưu trữ ngoài về phía thanh ghi, dung lượng các cấp nhớ thay đổi theo hướng nào trong hình phân cấp?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thường giảm dần"
+      },
+      {
+        "id": "B",
+        "text": "Giữ nguyên ở mọi cấp"
+      },
+      {
+        "id": "C",
+        "text": "Tăng từ RAM đến cache rồi giữ nguyên"
+      },
+      {
+        "id": "D",
+        "text": "Thường tăng dần"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chương III, slide 3, 33, 35-36. Hình slide 33 chỉ phía dung lượng lớn hơn ở các tầng thấp.  ·  HTML câu 6",
+    "sourceNumber": 103
+  },
+  {
+    "id": 104,
+    "text": "Mô tả nào đúng với RAM chính được trình bày trong bài?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chỉ đọc dữ liệu từ ô nhớ đã ghi sẵn"
+      },
+      {
+        "id": "B",
+        "text": "Là nơi chứa duy nhất firmware BIOS"
+      },
+      {
+        "id": "C",
+        "text": "Luôn giữ nguyên dữ liệu khi ngắt điện"
+      },
+      {
+        "id": "D",
+        "text": "Đọc và ghi dữ liệu, dùng để giữ thông tin đang được xử lý"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương III, slide 17-22. Slide 18 nêu RAM đọc và ghi được. Slide 20-22 mô tả SRAM và DRAM.  ·  HTML câu 7",
+    "sourceNumber": 104
+  },
+  {
+    "id": 105,
+    "text": "Theo bốn giai đoạn trong slide, chuỗi xử lý lệnh nào đúng?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Giải mã → nạp → hoàn tất → thực thi"
+      },
+      {
+        "id": "B",
+        "text": "Thực thi → giải mã → nạp → hoàn tất"
+      },
+      {
+        "id": "C",
+        "text": "Nạp → giải mã → thực thi → hoàn tất"
+      },
+      {
+        "id": "D",
+        "text": "Nạp → thực thi → giải mã → hoàn tất"
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Chương II, slide 26-27. Dùng đúng bốn mốc trong slide. HTML trình bày mô hình tách thêm bước nhận toán hạng.  ·  HTML câu 8",
+    "sourceNumber": 105
+  },
+  {
+    "id": 106,
+    "text": "Dual Channel trong ví dụ hai cặp khe của bài thuộc cơ chế tổ chức của bộ nhớ nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ổ đĩa từ HDD"
+      },
+      {
+        "id": "B",
+        "text": "RAM"
+      },
+      {
+        "id": "C",
+        "text": "ROM BIOS dự phòng"
+      },
+      {
+        "id": "D",
+        "text": "Bộ nhớ flash của SSD"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Chương V, slide 34-35. Slide 34-35 lấy cấu hình lắp hai thanh RAM làm ví dụ.  ·  HTML câu 9",
+    "sourceNumber": 106
+  },
+  {
+    "id": 107,
+    "text": "Tổ chức máy tính (Computer Organization) nghiên cứu nội dung nào theo slide 7?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chỉ mô tả tập lệnh từ góc nhìn người lập trình"
+      },
+      {
+        "id": "B",
+        "text": "Chỉ công nghệ đóng gói linh kiện"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ thiết kế logic chi tiết và đóng gói linh kiện"
+      },
+      {
+        "id": "D",
+        "text": "Thiết kế mức cao của hệ thống nhớ, bus và cấu trúc bên trong CPU"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "Chương I, slide 7. Slide 7 xếp công nghệ đóng gói vào Hardware. Đáp án tương ứng trong lựa chọn gốc là A, còn HTML đánh dấu C.  ·  HTML câu 10",
+    "sourceNumber": 107
+  }
+]
