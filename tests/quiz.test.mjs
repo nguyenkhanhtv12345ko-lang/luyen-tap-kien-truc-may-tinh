@@ -11,21 +11,22 @@ const map = new Map(bank.map(q => [q.id, q]));
 const random = () => 0;
 const range = (first, last) => Array.from({ length: last - first + 1 }, (_, i) => first + i);
 
-test("Mỗi câu có giải thích chi tiết và thuật ngữ Việt–Anh hợp lệ", () => {
+test("Mỗi câu có giải thích ngắn và chỉ dẫn các thuật ngữ cần thiết", () => {
   assert.deepEqual(Object.keys(studyNotes).map(Number), bank.map(q => q.sourceNumber));
   const linkedTerms = new Set();
   for (const [explanation, terms] of Object.values(studyNotes)) {
-    assert(explanation.trim());
-    assert(terms.length > 0);
+    assert(explanation.trim() && explanation.length <= 180);
+    assert(terms.length <= 4);
     assert.equal(new Set(terms).size, terms.length);
     for (const term of terms) {
-      assert.equal(terminology[term]?.length, 3, term);
+      assert.equal(terminology[term]?.length, 2, term);
       assert(terminology[term].every(text => text.trim()));
       linkedTerms.add(term);
     }
   }
   assert.deepEqual([...linkedTerms].sort(), Object.keys(terminology).sort());
-  assert(studyNotes[1][1].includes("organization") && studyNotes[1][1].includes("microarchitecture"));
+  assert.deepEqual(studyNotes[1][1], ["isa", "organization", "hardware"]);
+  assert.deepEqual(studyNotes[2][1], ["isa"]);
   assert(studyNotes[89][1].includes("isaBus") && studyNotes[89][1].includes("isa"));
 });
 

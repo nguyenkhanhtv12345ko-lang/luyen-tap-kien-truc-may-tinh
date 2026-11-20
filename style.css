@@ -64,16 +64,11 @@ h1 { font-size: clamp(20px, 2vw, 24px); font-weight: 750; letter-spacing: -.025e
 .feedback[data-result=right] { background: var(--green-bg); color: var(--green); }
 .feedback[data-result=wrong] { background: var(--red-bg); color: var(--red); }
 .feedback strong { display: block; }
-.study-details { margin-top: 16px; padding: 18px; border: 1px solid var(--border); background: #fbf9ff; border-radius: 14px; line-height: 1.6; overflow-wrap: anywhere; }
-.study-details h2, .study-details h3 { color: var(--ink); line-height: 1.35; }
-.study-details h3 { margin: 0; font-size: 15px; }
-#study-text { margin: 7px 0 0; font-size: 15px; }
-#study-glossary { margin-top: 15px; padding-top: 13px; border-top: 1px solid var(--border); }
-.study-terms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; margin: 10px 0 0; }
-.study-terms dt { font-size: 14px; font-weight: 750; }
-.term-english { color: #543a90; font-weight: 650; }
-.study-terms dd { margin: 3px 0 0; color: var(--muted); font-size: 13px; }
-.study-source { margin: 14px 0 0; padding-top: 11px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; white-space: pre-line; }
+.study-details { margin-top: 12px; padding: 13px 15px; border: 1px solid var(--border); background: #fbf9ff; border-radius: 12px; line-height: 1.52; overflow-wrap: anywhere; }
+.study-details h2 { color: var(--ink); font-size: 16px; line-height: 1.35; }
+#study-text { margin: 5px 0 0; font-size: 15px; }
+.study-terms { margin: 7px 0 0; color: #543a90; font-size: 13px; font-weight: 600; }
+.study-source { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
 .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border-top: 1px solid var(--border); margin-top: 22px; padding-top: 17px; }
 #previous { justify-self: start; }
 #next { justify-self: end; }
@@ -141,8 +136,4 @@ dialog p { margin: 0; color: var(--muted); line-height: 1.5; font-size: 14px; }
   .mark, .controls .button { padding-inline: 8px; }
   .controls { gap: 5px; }
   .option { gap: 8px; padding-inline: 8px; grid-template-columns: 31px minmax(0,1fr) 15px; font-size: 16px; }
-}
-@media (max-width: 560px) {
-  .study-details { padding: 13px; }
-  .study-terms { grid-template-columns: minmax(0, 1fr); gap: 10px; }
 }

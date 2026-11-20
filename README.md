@@ -2,7 +2,7 @@
 
 [Mở bài luyện trên GitHub Pages](https://nguyenkhanhtv12345ko-lang.github.io/luyen-tap-kien-truc-may-tinh/).
 
-Ngân hàng 107 câu lấy từ bản Word **107 cau trac nghiem on tap Kien truc may tinh.docx**. Trang giữ thứ tự câu và phương án của tài liệu trong chế độ nguyên bản. Sau khi trả lời, mỗi câu hiện giải thích chi tiết, chú thích thuật ngữ Việt–Anh và dòng đối chiếu chương, slide. Nội dung học bổ sung được lưu trong `study-notes.mjs` theo số câu gốc.
+Ngân hàng 107 câu lấy từ bản Word **107 cau trac nghiem on tap Kien truc may tinh.docx**. Trang giữ thứ tự câu và phương án của tài liệu trong chế độ nguyên bản. Sau khi trả lời, mỗi câu hiện giải thích ngắn, thuật ngữ Việt–Anh nếu cần và số slide đối chiếu. Phần giải thích được lưu trong `study-notes.mjs` theo số câu gốc.
 
 Tham khảo cho phần giải thích mở rộng. [Tổ chức máy tính](https://www.uvm.edu/~cbcafier/cs2210/content/02_basics_of_architecture/org_vs_arch.html), [ISA và vi kiến trúc](https://docs.riscv.org/reference/isa/_attachments/riscv-unprivileged.pdf), [Intel Hyper-Threading](https://www.intel.com/content/dam/www/public/us/en/documents/research/2002-vol06-iss-1-intel-technology-journal.pdf), [giao tiếp SATA](https://www.seagate.com/support/disc/manuals/sata/sata_im.pdf), [kết nối PCIe](https://pcisig.com/sites/default/files/files/PCI-SIG%20Cabling%20Webinar_FINAL.pdf), [bộ nhớ NAND và SSD](https://www.micron.com/about/micron-glossary/solid-state-drives).
 
